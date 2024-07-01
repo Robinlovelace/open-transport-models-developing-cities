@@ -22,7 +22,10 @@ To get started with writing:
   (Ctrl+Shift+K works also)
 
 - Edit the README.qmd file to add your content. You can edit in visual
-  mode by
+  mode by clicking on the three dots in the top right of the editor as
+  shown below, and selecting Visual Editor
+
+![](images/paste-1.png)
 
 <!-- When editing you should see something a bit like this:
 &#10;![](https://user-images.githubusercontent.com/1825120/207462469-7077eb93-f13a-449a-98b9-84d1e7a73e77.png)

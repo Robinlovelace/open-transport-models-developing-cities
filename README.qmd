@@ -1,5 +1,5 @@
 ---
-format: docx
+format: gfm
 bibliography: references.bib
 execute: 
   include: false
