@@ -1,12 +1,14 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # Setup
 
 To get started with writing:
 
-- Download and install a recent (2022+) version of RStudio:
-  <https://posit.co/download/rstudio-desktop/>
+- Download and install VS Code
+
+- Install the [Quarto
+  extension](https://quarto.org/docs/getting-started/installation.html#installing-the-quarto-vs-code-extension)
+  for VS Code
 
 - Download this repo, either by cloning it or by clicking on green Code
   button in the top right of the GitHub repo and clicking [Download
@@ -14,20 +16,14 @@ To get started with writing:
   or by following instructions on how to clone the repo (you need a
   GitHub account)
 
-- Unzip the folder if needs be, open the RStudio (.Rproj) file, open the
-  [README.Rmd](https://github.com/Robinlovelace/open-transport-models-developing-cities/blob/main/README.Rmd)
-  file, click on Visual mode (optional) and start editing (click the
-  Insert button to insert citations and other things)
+- Unzip the folder if needs be, open it with VS Code
 
-- Knit the file by clicking on the Knit button in RStudio (Ctrl+Shift+K
-  may work also)
+- Convert the .qmd file into the paper with `quarto render README.qmd`
+  (Ctrl+Shift+K works also)
 
-When editing you should see something a bit like this:
-
-![](https://user-images.githubusercontent.com/1825120/207462469-7077eb93-f13a-449a-98b9-84d1e7a73e77.png)
-
-Comments and questions are welcome. See the issue tracker here:
-<https://github.com/Robinlovelace/open-transport-models-developing-cities/issues/1>.
+<!-- When editing you should see something a bit like this:
+&#10;![](https://user-images.githubusercontent.com/1825120/207462469-7077eb93-f13a-449a-98b9-84d1e7a73e77.png)
+&#10;Comments and questions are welcome. See the issue tracker here: <https://github.com/Robinlovelace/open-transport-models-developing-cities/issues/1>. -->
 
 # Open source tools for transport planning in developing cities
 
@@ -49,7 +45,8 @@ Citations should look a bit like this:
 
 # References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
 
 <div id="ref-freiburg2016" class="csl-entry">
 
