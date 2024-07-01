@@ -1,5 +1,5 @@
 ---
-format: gfm
+format: docx
 bibliography: references.bib
 execute: 
   include: false
@@ -11,13 +11,18 @@ To get started with writing:
 
 -   Download and install VS Code
 
--  Install the [Quarto extension](https://quarto.org/docs/getting-started/installation.html#installing-the-quarto-vs-code-extension) for VS Code
+-   Install the [Quarto extension](https://quarto.org/docs/getting-started/installation.html#installing-the-quarto-vs-code-extension) for VS Code
 
 -   Download this repo, either by cloning it or by clicking on green Code button in the top right of the GitHub repo and clicking [Download Zip](https://github.com/Robinlovelace/open-transport-models-developing-cities/archive/refs/heads/main.zip) or by following instructions on how to clone the repo (you need a GitHub account)
 
 -   Unzip the folder if needs be, open it with VS Code
 
 -   Convert the .qmd file into the paper with `quarto render README.qmd` (Ctrl+Shift+K works also)
+
+-   Edit the README.qmd file to add your content.
+    You can edit in visual mode by clicking on the three dots in the top right of the editor as shown below, and selecting Visual Editor
+
+![](images/paste-1.png)
 
 <!-- When editing you should see something a bit like this:
 
@@ -37,10 +42,21 @@ The goal of this repo is to provide a place to collaborate on a paper about open
 
 It is motivated by recent experience of using open source software for transport planning.
 
+[@lovelace2021]
+
 Citations should look a bit like this:
 
 [@freiburg2016]
 
 [@murray2020]
+
+```{r}
+list.files("../low-traffic-tehran")
+f = "../low-traffic-tehran/TRAN5911M-201488264.pdf"
+file.copy(f, "TRAN5911M-201488264.pdf")
+system("gh release list")
+# create v0 release
+system("gh release create v0 TRAN5911M-201488264.pdf")
+```
 
 # References

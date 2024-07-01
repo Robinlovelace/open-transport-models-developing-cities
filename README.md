@@ -21,6 +21,9 @@ To get started with writing:
 - Convert the .qmd file into the paper with `quarto render README.qmd`
   (Ctrl+Shift+K works also)
 
+- Edit the README.qmd file to add your content. You can edit in visual
+  mode by
+
 <!-- When editing you should see something a bit like this:
 &#10;![](https://user-images.githubusercontent.com/1825120/207462469-7077eb93-f13a-449a-98b9-84d1e7a73e77.png)
 &#10;Comments and questions are welcome. See the issue tracker here: <https://github.com/Robinlovelace/open-transport-models-developing-cities/issues/1>. -->
@@ -37,6 +40,8 @@ about open transport tools and models for developing cities.
 It is motivated by recent experience of using open source software for
 transport planning.
 
+(Lovelace 2021)
+
 Citations should look a bit like this:
 
 (“Freiburg” 2016)
@@ -52,6 +57,14 @@ entry-spacing="0">
 
 “Freiburg.” 2016. In, 23–39. Routledge.
 <https://doi.org/10.4324/9781315739625-3>.
+
+</div>
+
+<div id="ref-lovelace2021" class="csl-entry">
+
+Lovelace, Robin. 2021. “Open Source Tools for Geographic Analysis in
+Transport Planning.” *Journal of Geographical Systems*, January.
+<https://doi.org/10.1007/s10109-020-00342-2>.
 
 </div>
 
